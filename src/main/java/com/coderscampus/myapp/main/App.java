@@ -3,7 +3,6 @@ package com.coderscampus.myapp.main;
 import java.util.Random;
 import java.util.Scanner;
 
-import com.coderscampus.myapp.service.MyService;
 
 public class App {
 
