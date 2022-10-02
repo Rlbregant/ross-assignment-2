@@ -27,7 +27,7 @@ public class App {
 
 			int userInput = scanner.nextInt();
 
-			if (userInput < 0 || userInput > 100) {
+			if (userInput <= 0 || userInput >= 101) {
 
 				System.out.println("Your guess is not between 1 and 100, please try again.");
 
