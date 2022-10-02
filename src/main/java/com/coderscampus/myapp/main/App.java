@@ -21,6 +21,7 @@ public class App {
 
 		Scanner scanner = new Scanner(System.in);
 		int totalGuesses = 5;
+		
 
 		while (totalGuesses >= 0) {
 
@@ -30,7 +31,7 @@ public class App {
 
 				System.out.println("Your guess is not between 1 and 100, please try again.");
 
-			} else if (totalGuesses == 1) {
+			} else if (totalGuesses == 1 && userInput != randomNumber) {
 
 				System.out.println("You lose, the number to guess was " + randomNumber + ".");
 				break;
@@ -53,7 +54,7 @@ public class App {
 			else {
 
 				System.out.println("You Win!");
-				
+				break;
 			}
 			
 		}
