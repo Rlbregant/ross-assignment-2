@@ -53,9 +53,10 @@ public class App {
 			else {
 
 				System.out.println("You Win!");
-				scanner.close();
+				
 			}
-
+			
 		}
+		scanner.close();
 	}
 }
